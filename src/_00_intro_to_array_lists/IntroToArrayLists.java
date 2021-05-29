@@ -16,16 +16,11 @@ public class IntroToArrayLists {
 		//3. Print all the Strings using a standard for-loop
 		for(int i = 0; i < names.size(); i++){
 			String s = names.get(i);
-			System.out.println("String at element " + i + " " + s);
+			System.out.println("String element " + i + " " + s);
 		}
 		//4. Print all the Strings using a for-each loop
 		for(String s : names){
 			System.out.println(s);
 		}
-		//5. Print only the even numbered elements in the list.
-		
-		//6. Print all the Strings in reverse order.
-		
-		//7. Print only the Strings that have the letter 'e' in them.
 	}
 }
